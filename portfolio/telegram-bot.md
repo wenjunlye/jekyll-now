@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Telegram Bot
-permalink: /works/telegram-bot/
+permalink: /portfolio/telegram-bot/
 ---
 
 One of the main projects that I'm working on now is the Telegram Bot for my class. The bot can be accessed [here](https://telegram.me/threeoheight_bot).
