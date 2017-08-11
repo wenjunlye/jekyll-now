@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class='container'>
+<div class='work'>
     <div class='card' id='card1' onclick='clicked(1)'></div>
     <div class='card' id='card2' onclick='clicked(2)'></div>
     <div class='card' id='card3' onclick='clicked(3)'></div>
@@ -17,30 +17,33 @@ layout: default
 </div>
 
 <style>
+    .work {
+        width: 510px;
+        margin: 0 auto;
+    }
+    .card {
+        float: left;
+        height: 150px;
+        width: 150px;
+        border-radius: 7px;
+        border: 2px solid white;
+        box-shadow: 2px 2px 2px #888888;
+        margin: 10px;
 
- .card {
-    float: left;
-    height: 150px;
-    width: 150px;
-    border-radius: 7px;
-    border: 2px solid white;
-    box-shadow: 2px 2px 2px #888888;
-    margin: 10px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
 
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+        background: #FFF left top;
+        background-size: 148px 148px;
+    }
 
-    background: #FFF left top;
-    background-size: 148px 148px;
- }
+    .card:hover, .active {
+        border: 2px solid red;
+        cursor: pointer;
+    }
 
- .card:hover, .active {
-    border: 2px solid red;
-    cursor: pointer;
- }
-
-  </style>
+</style>
 <script>
  /*global $*/
 
