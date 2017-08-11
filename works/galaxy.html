@@ -2,10 +2,11 @@
 layout: default
 ---
 
-
-<div id="helper"></div>
-<div id="translucent"></div>
-<div id="helper2"></div>
+<div class="container">
+    <div id="helper"></div>
+    <div id="translucent"></div>
+    <div id="helper2"></div>
+</div>
 
 
 <style>
@@ -15,26 +16,17 @@ layout: default
       100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
     }
 
-    html, body {
+    .container {
        margin: 0;
        padding: 0;
        height: 100%;
        width: 100%;
        box-sizing: border-box;
-    }
-
-    body {
        background-size: 100vw 100vh;
        background-position: center top;
        background-image: url("https://newevolutiondesigns.com/images/freebies/galaxy-wallpaper-36.jpg");
        background-repeat: no-repeat;
        position: absolute;
-    }
-
-    @media only screen and (orientation: portrait) {
-       body {
-          background-size: auto 100vh;
-       }
     }
 
     p {
