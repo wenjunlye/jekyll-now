@@ -4,11 +4,9 @@ title: Lights Out
 ---
 
 <div class="main">
-</div>
 
-<div class="sidebar">
- <p id="moves">Moves: 0</p>
- <button onclick="gameStart()">Restart</button>
+    <p id="moves">Moves: 0</p>
+    <button onclick="gameStart()">Restart</button>
 </div>
 
 ### Instructions
@@ -18,17 +16,13 @@ The objective of this game is to turn off all the lights in the fewest moves pos
 This project was based on [this](http://mathworld.wolfram.com/LightsOutPuzzle.html) mathematical puzzle.
 
 <style>
-     /* Landscape Devices */
-     @media screen and (orientation:landscape) {
-         .sidebar {
-            position: fixed;
-            top: 30vh;
-            right: 10vw;
-         }
-     }
-
-     body {
-        text-align: center;
+     .main {
+        display: inline-block;
+        width: 78vw;
+        max-width: 78vh;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
      }
 
      .light {
