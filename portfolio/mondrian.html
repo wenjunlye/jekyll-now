@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: portfolio
+title: Mondrian
 ---
 
 <script src="https://xlzior.github.io/portfolio/jquery.ui.touch-punch.min.js"></script>
@@ -64,7 +65,7 @@ layout: default
        margin: 0px 10px;
        position: absolute;
        left: 110%;
-       min-width: 200px;
+       min-width: 400px;
        z-index: 10;
     }
 
@@ -106,19 +107,21 @@ layout: default
     /* CONTAINER */
 
     #container {
-       height: 100%;
        width: 100%;
        background: #ddd;
        position: relative;
     }
 
     #canvas {
-       height: 500.5px;
-       width: 500.99999px;
-       background: #fafafa;
-       margin: 0 auto;
-       box-shadow: 7px 7px 0px #8d8d8d;
-       box-sizing: border-box;
+        height: 500.5px;
+        width: 500.99999px;
+        background: #fafafa;
+        margin: 0 auto;
+        box-shadow: 7px 7px 0px #8d8d8d;
+        box-sizing: border-box;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
     }
 
     .element-wrapper {
