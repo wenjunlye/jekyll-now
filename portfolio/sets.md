@@ -17,11 +17,37 @@ title: Sets
     
 </div>
 
-## TESTS
+### Instructions
 
-- please work
-- pretty please
-- please again
+Set is a card game which consists of 27 cards varying in three features: shape (circle, triangle, square); fill (solid, striped, or open); and color (red, green, or blue).
+
+A set consists of three cards satisfying all of these conditions:
+
+- They all have the same shape or have three different shapes.
+- They all have the same fill or have three different fills.
+- They all have the same color or have three different colors.
+
+-- Adapted from [Wikipedia](https://en.wikipedia.org/wiki/Set_(game))
+
+#### Example
+![Example]({{ site.baseurl }}/portfolio/images/sets/example.png)
+
+This is a set because
+
+- All cards have the same shape (triangle)
+- All cards have 3 different fills
+- All cards have 3 different colours
+
+#### Non-Example
+![Non-Example]({{ site.baseurl }}/portfolio/images/sets/non-example.png)
+
+This is not a set because 2 of the cards have triangles but the last has a square.
+
+### Keyboard Shortcuts
+![Keyboard Shortcuts]({{ site.baseurl }}/portfolio/images/sets/keyboard-shortcuts.png)
+
+### Inspiration
+Graphics were inspired by [this](https://play.google.com/store/apps/details?id=nl.borkoek.set) version of the game. 
 
 <style>
     .main {
