@@ -31,6 +31,11 @@ title: Mondrian
     
 </div>
 
+### Instructions
+Piet Mondrian was a Dutch painter renowned for his [grid-based paintings](https://www.google.com.sg/search?q=mondrian&tbm=isch) filled with primary colours, black, grey or white. This webpage provides users with a drag-and-drop interface to create their own Mondrian-inspired artwork.
+
+Drag and drop elements from the left panel to the canvas. Elements on the canvas may be resized by dragging the corners of the element.
+
 <style>
     .main {
         background: #333;

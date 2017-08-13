@@ -1,13 +1,16 @@
 ---
-layout: default
+layout: portfolio
+title: Galaxy
 ---
 
-<div class="container">
+<div class="main">
     <div id="helper"></div>
     <div id="translucent"></div>
     <div id="helper2"></div>
 </div>
 
+### Inspiration
+Inspired by [The Thoughts Room](http://thequietplaceproject.com/thethoughtsroom/) by The Quiet Place Project.
 
 <style>
     @keyframes snow {
@@ -16,7 +19,7 @@ layout: default
       100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
     }
 
-    .container {
+    .main {
        margin: 0;
        padding: 0;
        height: 100%;
