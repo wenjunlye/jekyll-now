@@ -4,7 +4,8 @@ title: Lights Out
 ---
 
 <div class="main">
-
+    <div class="lights">
+    </div>
     <p id="moves">Moves: 0</p>
     <button onclick="gameStart()">Restart</button>
 </div>
@@ -23,6 +24,11 @@ This project was based on [this](http://mathworld.wolfram.com/LightsOutPuzzle.ht
         position: relative;
         left: 50%;
         transform: translateX(-50%);
+     }
+     
+     .lights {
+        height: 100%;
+        width: 100%;
      }
 
      .light {
@@ -109,7 +115,7 @@ This project was based on [this](http://mathworld.wolfram.com/LightsOutPuzzle.ht
      $(document).ready(function() {
         // Create rows*rows lights
         for (var i = 1; i <= rows*rows; i++) {
-           $(".main").append('<div class="light" id="' + i + '" onclick="clicked(id)"></div>');
+           $(".lights").append('<div class="light" id="' + i + '" onclick="clicked(id)"></div>');
         }
 
         // Start game
