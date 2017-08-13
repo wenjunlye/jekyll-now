@@ -5,7 +5,7 @@ layout: default
 <script src="https://xlzior.github.io/portfolio/jquery.ui.touch-punch.min.js"></script>
 
 <div class="main">
-    <section id="element-drawer" class="open">
+    <section id="element-drawer">
         <div class="element-wrapper original">
             <div class="element blue box "></div>
         </div>
@@ -28,11 +28,6 @@ layout: default
         <div id="canvas"></div>
     </section>
     
-    <section id="colour-drawer"></section>
-    <div id="button-wrapper">
-        <a id="grid" class="button">grid</a>
-        <a id="clear" class="button">clear</a>
-    </div>
 </div>
 
 <style>
@@ -60,11 +55,6 @@ layout: default
        display: flex;
        flex-wrap: wrap;
        padding: 10px;
-       left: -100%;
-       transition: 1s all;
-    }
-
-    #element-drawer.open {
        left: 0;
        width: 100px;
        margin-right: 10px;
@@ -144,7 +134,7 @@ layout: default
 
     .grid {
        position: relative;
-       top: -6px;
+       top: -4px;
        border: 1px solid #eee;
        display: inline-block;
        height: 20px;
