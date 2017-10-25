@@ -8,8 +8,22 @@ permalink: /portfolio/
 
 Here are some of my web development projects.
 
-| ![Sets]({{ site.baseurl }}/portfolio/images/sets.png) | ![Mondrian]({{ site.baseurl }}/portfolio/images/mondrian.png) |
-| [Sets]({{ site.baseurl }}/portfolio/sets/) | [Mondrian]({{ site.baseurl }}/portfolio/mondrian/) |
+<div class="flex-container">
+  <div class="card">
+    <a href="/portfolio/sets/">
+      <img src="/portfolio/images/sets.png" />
+      <p>Sets</p>
+    </a>
+  </div>
+
+  <div class="card">
+    <a href="/portfolio/mondrian/">
+      <img src="/portfolio/images/mondrian.png" />
+      <p>Mondrian Generator</p>
+    </a>
+  </div>
+</div>
+
 
 ### Telegram Bot
 
