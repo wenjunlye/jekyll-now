@@ -297,7 +297,7 @@ footer {
 
 .flex-container {
   display: flex;
-  margin: 30px 0px 50px;
+  margin: 30px 0px 20px;
   flex-flow: row wrap;
   justify-content: space-between;
   min-height: 300px;
@@ -305,8 +305,8 @@ footer {
 }
 
 .card {
-  width: 320px;
-  height: 365px;
+  width: 220px;
+  height: 265px;
   margin: 10px auto;
   padding: 5px;
   text-align: center;
@@ -319,8 +319,8 @@ footer {
   
   img {
     margin: 10px;
-    max-height: 275px;
-    max-width: 275px;
+    max-height: 175px;
+    max-width: 175px;
   }
   
   p {
@@ -330,6 +330,10 @@ footer {
 
 .card:hover {
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.center {
+    text-align: center;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS

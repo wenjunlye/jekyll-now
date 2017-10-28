@@ -1,12 +1,13 @@
 ---
 layout: portfolio
 title: Lights Out
+permalink: /portfolio/lights-out/
 ---
 
-<div class="main">
-    <div class="lights">
-    </div>
-    <p id="moves">Moves: 0</p>
+<div class="main center">
+    <div class="lights"></div>
+    <br />
+    <p class="center" id="moves">Moves: 0</p>
     <button onclick="gameStart()">Restart</button>
 </div>
 
@@ -27,8 +28,7 @@ This project was based on [this](http://mathworld.wolfram.com/LightsOutPuzzle.ht
      }
      
      .lights {
-        height: 100%;
-        width: 100%;
+        display: inline-block;
      }
 
      .light {
@@ -42,7 +42,7 @@ This project was based on [this](http://mathworld.wolfram.com/LightsOutPuzzle.ht
         float: left;
         margin: 2px;
      }
-
+     
      .on {
         background: #F5D513;
      }
