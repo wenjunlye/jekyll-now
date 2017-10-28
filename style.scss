@@ -106,7 +106,7 @@ strong, b {
   font-weight: bold;
 }
 
-img {
+img, video {
   max-width: 100%;
 }
 
@@ -287,9 +287,17 @@ footer {
   width: 100%;
 }
 
+// ABOUT page
+
+.list td {
+    padding: 10px 15px;
+}
+
+// PORTFOLIO page: cards
+
 .flex-container {
   display: flex;
-  margin: 40px 0px 60px;
+  margin: 30px 0px 50px;
   flex-flow: row wrap;
   justify-content: space-between;
   min-height: 300px;
@@ -298,7 +306,8 @@ footer {
 
 .card {
   width: 320px;
-  margin: auto;
+  height: 365px;
+  margin: 10px auto;
   padding: 5px;
   text-align: center;
   
