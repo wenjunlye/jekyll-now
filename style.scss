@@ -299,15 +299,16 @@ footer {
   display: flex;
   margin: 30px 0px 20px;
   flex-flow: row wrap;
-  justify-content: space-between;
+  justify-content: flex-start;
   min-height: 300px;
   width: 100%;
 }
 
 .card {
-  width: 220px;
   height: 265px;
-  margin: 10px auto;
+  width: 220px;
+  
+  margin: 10px;
   padding: 5px;
   text-align: center;
   
